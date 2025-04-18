@@ -1,12 +1,12 @@
 .navbar {
-    background-color: #282c34;
-    color: white;
+    background-color: white;
+    color: #AA336A;
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
   }
   
   .navbar-container {
@@ -19,7 +19,7 @@
   
   .navbar-logo a {
     text-decoration: none;
-    color: white;
+    color: #AA336A;
     font-size: 1.5rem;
     font-weight: bold;
   }
@@ -34,21 +34,22 @@
   
   .navbar-links li a {
     text-decoration: none;
-    color: white;
+    color: #AA336A;
     font-weight: 500;
   }
   
   .navbar-links li.active a {
-    border-bottom: 2px solid #61dafb;
+    border-bottom: 2px solid #fb61dc;
     padding-bottom: 2px;
   }
     .navbar-links li a:hover {
-        color: #61dafb;
+        color: #4e083f;
     }  
 
 #projects,
 #contact,
 #cv,
+#about,
 #top {
     scroll-margin-top: 80px;
 }

@@ -1,6 +1,7 @@
 import Projects from './projects';
 import Contact from './contact';
 import CV from './cv';
+import About from './about';
 
 function Home() {
   return (
@@ -19,6 +20,10 @@ function Home() {
                 <li>🧠 Using AI to solve technical challenges</li>
                 </ul>
             </section>
+        </section>
+
+        <section id="about">
+            <About />
         </section>
 
         <section id="projects">

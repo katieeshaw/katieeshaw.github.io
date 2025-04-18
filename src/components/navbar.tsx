@@ -3,7 +3,7 @@ import './navbar.css';
 
 const Navbar: React.FC = () => {
   const navItems = [
-    { label: 'About', anchor: '#top' },
+    { label: 'About', anchor: '#about' },
     { label: 'Projects', anchor: '#projects' },
     { label: 'CV', anchor: '#cv' },
     { label: 'Contact', anchor: '#contact' },
