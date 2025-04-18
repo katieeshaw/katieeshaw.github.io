@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <a href="#top">MyPortfolio</a>
+          <a href="#top">Katie Shaw</a>
         </div>
         <ul className="navbar-links">
           {navItems.map(({ label, anchor }) => (

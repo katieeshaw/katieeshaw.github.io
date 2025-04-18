@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Makes the section take up the full viewport height */
+    text-align: center; /* Centers the text */
+    padding: 0 20px; /* Optional: Add some padding for responsiveness */
+  }
+  
+  .intro h1 {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 20px; /* Spacing between title and text */
+  }
+  
+  .intro p {
+    font-size: 1.25rem; /* Adjust as needed */
+
+}
+.intro-header {
+  color: #AA336A;
+}
