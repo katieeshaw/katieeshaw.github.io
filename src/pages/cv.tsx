@@ -73,7 +73,7 @@ const CV: React.FC = () => {
       </section>
 
       <p className="cv-download">
-        📄 <a href="/Katie%20Shaw%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (PDF)</a>
+        📄 <a href="./documents/Katie%20Shaw%20-%20CV.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (PDF)</a>
       </p>
     </div>
   );

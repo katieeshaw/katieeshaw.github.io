@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
       <div className="project-details">
         <div className="project-details__showcase-img-cont">
           <img
-            src="./project-image-1.png"
+            src="./images/project-image-1.png"
             alt="Project Image"
             className="project-details__showcase-img"
           />
@@ -28,7 +28,7 @@ const Projects: React.FC = () => {
       <div className="project-details">
         <div className="project-details__showcase-img-cont">
           <img
-            src="./project-image-1.png"
+            src="./images/project-image-1.png"
             alt="Project Image"
             className="project-details__showcase-img"
           />
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
       <div className="project-details">
         <div className="project-details__showcase-img-cont">
           <img
-            src="./project-image-1.png"
+            src="./images/project-image-1.png"
             alt="Project Image"
             className="project-details__showcase-img"
           />
