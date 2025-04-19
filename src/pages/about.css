@@ -6,18 +6,21 @@
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    flex-wrap: wrap; /* allows wrapping for smaller screens */
   }
   
   .about-me,
   .skills {
     flex: 1; /* Both take up equal width */
+    min-width: 300px; /* prevent shrinking too small on mobile */
   }
   
+  /* Skill list styling */
   .skills ul {
     list-style: none;
     padding: 0;
   }
-
+  
   .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,4 +43,24 @@
     transform: scale(1.05);
     background-color: #AA336A;
     color: white;
-  }  
+  }
+  
+  /* --------- Responsive Styles --------- */
+  @media (max-width: 768px) {
+    .about-skills-container {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 1.5rem;
+    }
+  
+    .about-me,
+    .skills {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .skills-list {
+      justify-content: center;
+    }
+  }
+  

@@ -49,3 +49,43 @@
   .home-hero__social-icon {
     filter: invert(1); /* makes white → black and vice versa */
   }
+
+  @media (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      padding: 2rem 1rem;
+      height: auto; /* Avoid overflow on smaller screens */
+      gap: 2rem;
+    }
+  
+    .intro h1 {
+      font-size: 2.2rem;
+    }
+  
+    .intro p {
+      font-size: 1.1rem;
+    }
+  
+    .sidebar {
+      position: static;
+      flex-direction: row;
+      justify-content: center;
+      transform: none;
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .intro h1 {
+      font-size: 1.75rem;
+    }
+  
+    .intro p {
+      font-size: 1rem;
+    }
+  
+    .sidebar img {
+      width: 28px;
+      height: 28px;
+    }
+  }

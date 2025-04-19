@@ -39,7 +39,7 @@
     color: #AA336A;
     margin-bottom: 1rem;
   }
-
+  
   .cv-section h3 {
     font-size: 1rem;
     color: #AA336A;
@@ -98,4 +98,54 @@
     text-decoration: none;
     color: #AA336A;
     font-weight: 600;
+  }
+  
+  /* ----------------- Responsive Styles ----------------- */
+  
+  @media (max-width: 768px) {
+    .cv-container {
+      padding: 1.5rem;
+    }
+  
+    .cv-container h1 {
+      font-size: 2rem;
+    }
+  
+    .intro-text {
+      font-size: 1rem;
+    }
+  
+    .cv-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .cv-section li {
+      font-size: 0.95rem;
+    }
+  
+    .skills-list {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cv-container {
+      padding: 1rem;
+    }
+  
+    .cv-container h1 {
+      font-size: 1.75rem;
+    }
+  
+    .cv-section h2 {
+      font-size: 1.25rem;
+    }
+  
+    .cv-section h3 {
+      font-size: 0.95rem;
+    }
+  
+    .cv-section li {
+      font-size: 0.9rem;
+    }
   }  
