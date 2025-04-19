@@ -5,8 +5,7 @@ const Navbar: React.FC = () => {
   const navItems = [
     { label: 'About', anchor: '#about' },
     { label: 'Projects', anchor: '#projects' },
-    { label: 'CV', anchor: '#cv' },
-    { label: 'Contact', anchor: '#contact' },
+    { label: 'CV', anchor: '#cv' }
   ];
 
   return (

@@ -23,7 +23,6 @@ body {
 
 /* Page container styles */
 .home-container,
-.contact-container,
 .projects-container,
 .about-container,
 .cv-container {
@@ -35,7 +34,6 @@ body {
 
 /* For centering titles and adding a line underneath */
 .home-container h1,
-.contact-container h1,
 .projects-container h1,
 .about-container h1,
 .cv-container h1 {
@@ -44,7 +42,6 @@ body {
 }
 
 .home-container h1::after,
-.contact-container h1::after,
 .projects-container h1::after,
 .about-container h1::after,
 .cv-container h1::after {
@@ -60,7 +57,6 @@ body {
 }
 
 .home-container h1 + *,
-.contact-container h1 + *,
 .projects-container h1 + *,
 .about-container h1 + *,
 .cv-container h1 + * {

@@ -1,0 +1,101 @@
+.cv-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .cv-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+  }
+  
+  .cv-container h1::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 5px;
+    background-color: #AA336A;
+    border-radius: 10px;
+  }
+  
+  .intro-text {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .cv-section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .cv-section h2 {
+    font-size: 1.75rem;
+    color: #AA336A;
+    margin-bottom: 1rem;
+  }
+
+  .cv-section h3 {
+    font-size: 1rem;
+    color: #AA336A;
+    margin-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+  
+  .cv-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .cv-section li {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .cv-section li span {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.2rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .skill {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill:hover {
+    background-color: #AA336A;
+    color: #fff;
+  }
+  
+  .cv-download {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .cv-download a {
+    text-decoration: none;
+    color: #AA336A;
+    font-weight: 600;
+  }  
