@@ -1,7 +1,3 @@
-.intro-text {
-    text-align: center;
-}
-
 .about-skills-container {
     display: flex;
     justify-content: space-between;
@@ -20,12 +16,6 @@
   .skills ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .skills li::before {
-    content: '•';
-    color: #FF5733; /* Optional bullet color */
-    margin-right: 0.5rem;
   }
 
   .skills-list {

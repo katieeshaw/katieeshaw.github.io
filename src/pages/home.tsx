@@ -10,7 +10,7 @@ function Home() {
         <section className="home-container" id="top">
             <section className="intro">
                 <h1>Hey, I'm <b className="intro-header">Katie Shaw</b></h1>
-                <p>I'm a software engineer who loves building web apps and solving problems to create real, practical solutions.</p>
+                <p className="intro-text">I'm a software engineer who loves building web apps and solving problems to create real, practical solutions.</p>
             </section>
         </section>
 

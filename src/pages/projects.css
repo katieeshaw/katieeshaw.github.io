@@ -1,0 +1,40 @@
+.project-details__showcase-img-cont {
+    flex: 1;
+    justify-content: flex-start; /* Align to the left */
+    padding-top: 6rem; /* Optional: Add some padding */
+  }
+  
+  .project-details__showcase-img {
+    width: 500px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners */
+  }
+  
+  .project-details {
+    display: flex;
+    gap: 2rem; /* space between image and text */
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+  
+  .project-details__description {
+    flex: 2;
+    text-align: left;
+    padding-top: 8rem; /* Optional: Add some padding */
+  }
+
+  .view-project-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #AA336A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-project-btn:hover {
+    background-color: #6f1941;
+  }  
