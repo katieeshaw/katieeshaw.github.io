@@ -1,7 +1,7 @@
 .project-details__showcase-img-cont {
     flex: 1;
     justify-content: flex-start; /* Align to the left */
-    padding-top: 6rem; /* Optional: Add some padding */
+    padding-top: 2rem; /* Optional: Add some padding */
   }
   
   .project-details__showcase-img {
@@ -20,11 +20,10 @@
   .project-details__description {
     flex: 2;
     text-align: left;
-    padding-top: 8rem; /* Optional: Add some padding */
+    padding-top: 4rem; /* Optional: Add some padding */
   }
   
   .view-project-btn {
-    margin-top: 1rem;
     padding: 0.5rem 1rem;
     background-color: #AA336A;
     color: white;
@@ -63,10 +62,6 @@
       text-align: center;
     }
   
-    .view-project-btn {
-      margin: 2rem auto 0;
-      display: inline-block;
-    }
   }
   
   @media (max-width: 480px) {

@@ -17,33 +17,37 @@ const Projects: React.FC = () => {
         </div>
 
         <div className="project-details__description">
-          <h3>Project Title 1</h3>
+          <h3>Portfolio Website</h3>
           <p className="project-details__description-text">
-            This is a brief description of the project. It highlights the main features and technologies used.
+            The very website you're on now! Built with HTML, CSS, and JavaScript using Vite, it's curently hosted on GitHub Pages.
           </p>
-          <button className="view-project-btn">View Project</button>
+          <a href="https://github.com/katieeshaw/katieeshaw.github.io" target="_blank" rel="noopener noreferrer">
+            <button className="view-project-btn">View Project</button>
+          </a>
         </div>
       </div>
 
       <div className="project-details">
         <div className="project-details__showcase-img-cont">
           <img
-            src="./images/project-image-1.png"
+            src="./images/project-image-2.png"
             alt="Project Image"
             className="project-details__showcase-img"
           />
         </div>
 
         <div className="project-details__description">
-          <h3>Project Title 2</h3>
+          <h3>MealTime (WIP)</h3>
           <p className="project-details__description-text">
-            This is a brief description of the project. It highlights the main features and technologies used.
+            Your personal recipe manager and meal planner – built with a React frontend (Vite) and a FastAPI backend. You can log in, save your favorite recipes, and plan your meals for the week.
           </p>
-          <button className="view-project-btn">View Project</button>
+          <a href="https://github.com/katieeshaw/recipe-manager" target="_blank" rel="noopener noreferrer">
+            <button className="view-project-btn">View Project</button>
+          </a>
         </div>
       </div>
 
-      <div className="project-details">
+      {/* <div className="project-details">
         <div className="project-details__showcase-img-cont">
           <img
             src="./images/project-image-1.png"
@@ -59,7 +63,7 @@ const Projects: React.FC = () => {
           </p>
           <button className="view-project-btn">View Project</button>
         </div>
-      </div>
+      </div> */}
 
     </div>
 
