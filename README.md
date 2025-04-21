@@ -8,7 +8,7 @@ Welcome to my personal portfolio website, a place where I showcase my projects, 
 
 ## 🛠 Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (with Vite)
+- **Frontend**: React (with Vite)
 - **Styling**: Custom CSS
 - **Hosting**: GitHub Pages
 
