@@ -37,6 +37,10 @@
   .view-project-btn:hover {
     background-color: #6f1941;
   }
+
+  .view-project-btn:focus {
+    outline: none;
+  }
   
   @media (max-width: 1024px) {
     .project-details {
