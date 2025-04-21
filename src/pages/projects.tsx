@@ -19,7 +19,7 @@ const Projects: React.FC = () => {
         <div className="project-details__description">
           <h3>Portfolio Website</h3>
           <p className="project-details__description-text">
-            The very website you're on now! Built with HTML, CSS, and JavaScript using Vite, it's curently hosted on GitHub Pages.
+            The very website you're on now! Built with React using Vite, it's curently hosted on GitHub Pages.
           </p>
           <a href="https://github.com/katieeshaw/katieeshaw.github.io" target="_blank" rel="noopener noreferrer">
             <button className="view-project-btn">View Project</button>
