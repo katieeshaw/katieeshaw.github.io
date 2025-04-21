@@ -71,11 +71,13 @@
   @media (max-width: 480px) {
     .project-details__description {
       font-size: 0.95rem;
+      padding-top: 0rem;
     }
   
     .view-project-btn {
       padding: 0.5rem 0.75rem;
       font-size: 0.95rem;
+      margin-bottom: 2rem;
     }
   
     .project-details__showcase-img {
